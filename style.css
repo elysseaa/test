@@ -1,7 +1,7 @@
 h1{
     color: white;
     font-family: Verdana;
-    border-bottom: 20px dashed salmon;
+    border-bottom: 20px dashed orange;
     background-color: navy;
     padding: 50px;
     margin: 20px;
@@ -12,4 +12,21 @@ h1{
 p{
     font-family: Tahoma;
     margin: 20px;
+}
+h2{
+    font-family: sans-serif;
+    margin: 20px;
+}
+table{
+    font-family: sans-serif;
+    margin: 20px;
+}
+th{
+    color: white;
+    background-color: salmon;
+    padding: 10px;
+}
+td{
+    padding: 10px;
+    background-color: seashell;
 }
