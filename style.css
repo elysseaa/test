@@ -1,0 +1,15 @@
+h1{
+    color: white;
+    font-family: Verdana;
+    border-bottom: 20px dashed salmon;
+    background-color: navy;
+    padding: 50px;
+    margin: 20px;
+}
+.bold{
+    font-weight: bold;
+}
+p{
+    font-family: Tahoma;
+    margin: 20px;
+}
