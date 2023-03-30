@@ -10,11 +10,11 @@ h1{
     font-weight: bold;
 }
 p{
-    font-family: Tahoma;
+    font-family: sans-serif;
     margin: 20px;
 }
 h2{
-    font-family: sans-serif;
+    font-family: Tahoma;
     margin: 20px;
 }
 table{
@@ -29,4 +29,17 @@ th{
 td{
     padding: 10px;
     background-color: seashell;
+}
+nav{
+    margin: 20px;
+    font-family: sans-serif;
+    background: seashell;
+    padding:10px;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
 }
