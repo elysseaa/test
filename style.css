@@ -31,15 +31,26 @@ td{
     background-color: seashell;
 }
 nav{
-    margin: 20px;
     font-family: sans-serif;
-    background: seashell;
-    padding:10px;
-}
-.flex-container{
+    overflow: hidden;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    background-color: seashell;
 }
-a{
+nav a{
+    padding: 20px 25px;
+}
+a:link, a:visited{
+    color: navy;
+    text-align: center;
     text-decoration: none;
+    display:inline-block;
+}
+a:hover {
+    background-color: salmon;
+    color: white;
+    transition: 0.3s;
+}
+.link {
+    margin:0px 20px;
 }
