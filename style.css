@@ -6,9 +6,6 @@ h1{
     padding: 50px;
     margin: 20px;
 }
-.bold{
-    font-weight: bold;
-}
 p{
     font-family: sans-serif;
     margin: 20px;
@@ -36,21 +33,33 @@ nav{
     display: flex;
     justify-content: space-evenly;
     background-color: seashell;
+    margin:20px;
 }
 nav a{
     padding: 20px 25px;
+    color: navy;
 }
 a:link, a:visited{
-    color: navy;
-    text-align: center;
     text-decoration: none;
     display:inline-block;
 }
-a:hover {
+nav a:hover {
     background-color: salmon;
     color: white;
     transition: 0.3s;
 }
-.link {
+footer {
     margin:0px 20px;
+    background-color: navy;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+}
+footer a{
+    color: white;
+}
+footer a:hover{
+    color: navy;
+    background-color: orange;
+    transition: 0.3s;
 }
