@@ -30,7 +30,7 @@ td{
 nav{
     font-family: sans-serif;
     overflow: hidden;
-    display: flex;
+    display: block;
     justify-content: space-evenly;
     background-color: seashell;
     margin:20px;
@@ -49,10 +49,10 @@ nav a:hover {
     transition: 0.3s;
 }
 footer {
-    margin:0px 20px;
+    margin:20px;
     background-color: navy;
     overflow: hidden;
-    display: flex;
+    display: block;
     justify-content: space-evenly;
 }
 footer a{
