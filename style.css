@@ -14,6 +14,10 @@ h2{
     font-family: Tahoma;
     margin: 20px;
 }
+h3{
+    font-family: sans-serif;
+    margin: 20px;
+}
 table{
     font-family: sans-serif;
     margin: 20px;
@@ -40,6 +44,7 @@ nav a{
     color: navy;
 }
 a:link, a:visited{
+    transition: 0.3s;
     text-decoration: none;
     display:inline-block;
 }
@@ -62,4 +67,14 @@ footer a:hover{
     color: navy;
     background-color: orange;
     transition: 0.3s;
+}
+.banner{
+    background-color: salmon;
+    color: seashell;
+    padding:30px 25px;
+    border-top: 10px solid navy;
+}
+li{
+    font-family: sans-serif;
+    margin: 5px 0px;
 }
