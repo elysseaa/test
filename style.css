@@ -79,6 +79,9 @@ li{
     margin: 5px 0px;
 }
 img {
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
