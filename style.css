@@ -78,3 +78,7 @@ li{
     font-family: sans-serif;
     margin: 5px 0px;
 }
+img {
+    max-width: 100%;
+    height: auto;
+}
