@@ -47,8 +47,8 @@ td{
     color: navy;
 }
 #menu a:hover {
-    background-color: salmon;
-    color: white;
+    background-color: #ffe6d5;
+    color: navy;
     transition: 0.3s;
 }
 #menu a:link, a:visited{
